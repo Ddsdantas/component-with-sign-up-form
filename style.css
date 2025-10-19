@@ -51,7 +51,7 @@ body{
     width: 420px;
     font-size: 3em;
     font-weight: bold;
-    margin: 30px auto;
+    margin-bottom: 30px;
     text-align: justify;
     font-family: var(--font01);
 }
@@ -62,6 +62,24 @@ body{
     width: 470px; /* aumente a largura pra permitir 3 linhas equilibradas */
     font-size: 1.1em;
     line-height: 1.7em;
-    margin: auto;
+  
     color: rgb(218, 217, 217);
+}
+
+.right > aside{
+    background-color: hsl(248, 32%, 49%);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: rgb(218, 217, 217);
+    border-radius: 7px;
+    box-shadow: 0px 6px 10px 0px hsl(247, 32%, 41%);
+}
+
+.trial-text{
+    font-weight: 700;
+}
+
+.right > aside > p {
+    text-align: center;
+    font-family: var(--font01);
 }

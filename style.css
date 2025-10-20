@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font01);
 }
 
 body{
@@ -36,7 +37,6 @@ body{
 }
 
 .right{
-    background-color: yellow;
     flex: 1;
 }
 
@@ -53,16 +53,15 @@ body{
     font-weight: bold;
     margin-bottom: 30px;
     text-align: justify;
-    font-family: var(--font01);
+   
 }
 
 #info-text{
-    font-family: var(--font01);
+    
     text-align: left; /* mude de justify para left */
     width: 470px; /* aumente a largura pra permitir 3 linhas equilibradas */
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.7em;
-  
     color: rgb(218, 217, 217);
 }
 
@@ -81,15 +80,37 @@ body{
 
 .right > aside > p {
     text-align: center;
-    font-family: var(--font01);
+    
 }
 
 .sign-in{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    height: 70%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px 0px hsla(0, 40%, 50%, 0.501) ;
 }
 
 .input-text{
-    display: block;
+    padding: 0px;
+    margin: 15px;
+    width: 90%;
+    height: 50px;
+    text-indent: 15px;
+    border: 1px solid rgba(1, 1, 1, 0.34);
+    border-radius: 5px;
+}
+
+.input-text::placeholder {
+  color: gray;
+  font-size: 0.95em;
+  opacity: 0.7; /* optional: makes it slightly transparent */
+}
+
+.sign-in > button{
+    padding-bottom: 10px;
+    width: 90%;
 }

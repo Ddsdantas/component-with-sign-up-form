@@ -83,3 +83,13 @@ body{
     text-align: center;
     font-family: var(--font01);
 }
+
+.sign-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-text{
+    display: block;
+}
